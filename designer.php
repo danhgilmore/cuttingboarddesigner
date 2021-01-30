@@ -6,12 +6,6 @@
  */
 get_header();
 
-if (is_page('design-your-board')) {
-    ?>
-    <link rel="stylesheet" href="http://www.dancywood.dev.cc/wp-content/themes/cuttingboarddesigner/designer.css">
-    <?php   
-}
-
 wp_enqueue_style( 'designer_css', 'http://www.dancywood.dev.cc/wp-content/themes/cuttingboarddesigner/designer.css'  );
 
 ?>
@@ -41,25 +35,22 @@ wp_enqueue_style( 'designer_css', 'http://www.dancywood.dev.cc/wp-content/themes
                         </p>
                     </div><!-- end class="designer-header" -->
                     <div class="designer-form">
-                        designer form div
+                        designer-form
                         <div class="designer-parameters">
-                            <div class="designer-measuerments">
-                                <label for="length" >Length</label>
-                                <input type="text" style="width: 35px" id="length" name="length">
-                                <label for="width">Width</label>
-                                <input type="text" style="width: 35px" id="width" name="width">
-                                <label for="thickness">Thickness</label>
-                                <input type="text" style="width: 35px" id="thickness" name="thickness">  
-                            </div><!-- end of class="designer-measurements" -->
+                            designer-parameters
+                            <div class="designer-measurements">
+                                designer-measurements
+                            </div>
                             <div class="designer-layout">
-                                DESIGNER LAYOUT
-                            </div><!-- end of class="designer-layout" -->
+                                designer-layout 
+                            </div>
                             <div class="designer-layout-instructions">
-                                DESIGNER LAYOUT INSTRUCTIONS
-                            </div><!-- end of class="designer-layout-instructions" -->
+                                designer-layout-instructions 
+                            </div>
                         </div><!-- end of class="designer-parameters" -->
+
                         <div class="designer-preview">
-                            Preview
+                            designer-preview
                         </div><!-- end of class="designer-preview" -->
                     </div><!-- end of class="designer-form" -->
                 </div><!-- end of class="designer-container" -->

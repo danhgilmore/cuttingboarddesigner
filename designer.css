@@ -4,36 +4,40 @@
     position:relative;
     height:100%
 }
-.designer-header {
-    background-color: firebrick;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 100%;
-}
-.designer-form {
-    width:75%;
-    /* float:left;*/
-    height:100%; 
-    background-color: silver;
-}
-.designer-parameters {
-    background-color: cornflowerblue;
-}
 
-.designer-measurements {
-    background-color: cyan;
-}
+    .designer-header {
+        background-color: firebrick;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 100%;
+    }
 
-.designer-layout {
-    float:left;
-    background-color: cadetblue;
-}
+    
+    .designer-form {
+        height:100%; 
+        background-color: silver;
+    }
+        .designer-parameters {
+            
+            background-color: cornflowerblue;
+            width: 45%;
+        }
 
-.designer-layout-instructions {
-    background-color: darkgreen;
-}
-.designer-preview {
-    height:100%;
-    background-color: darkmagenta;
-}
+        .designer-measurements {
+            background-color: cyan;
+        }
+
+        .designer-layout {
+            float:left;
+            background-color: cadetblue;
+        }
+
+        .designer-layout-instructions {
+            background-color: darkgreen;
+        }
+    .designer-preview {
+        height:100%;
+        background-color: darkmagenta;
+        width: 45%;
+    }
