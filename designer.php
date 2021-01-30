@@ -8,11 +8,11 @@ get_header();
 
 if (is_page('design-your-board')) {
     ?>
-    <link rel="stylesheet" href="http://www.dancywood.dev.cc/wp-content/themes/storefront/designer.css">
+    <link rel="stylesheet" href="http://www.dancywood.dev.cc/wp-content/themes/cuttingboarddesigner/designer.css">
     <?php   
 }
 
-wp_enqueue_style( 'designer_css', 'http://www.dancywood.dev.cc/wp-content/themes/storefront/designer.css'  );
+wp_enqueue_style( 'designer_css', 'http://www.dancywood.dev.cc/wp-content/themes/cuttingboarddesigner/designer.css'  );
 
 ?>
 <div id="primary" class="content-area">
@@ -52,7 +52,7 @@ wp_enqueue_style( 'designer_css', 'http://www.dancywood.dev.cc/wp-content/themes
                                 <input type="text" style="width: 35px" id="thickness" name="thickness">  
                             </div><!-- end of class="designer-measurements" -->
                             <div class="designer-layout">
-                                DESIGNER FORM LAYOUT
+                                DESIGNER LAYOUT
                             </div><!-- end of class="designer-layout" -->
                             <div class="designer-layout-instructions">
                                 DESIGNER LAYOUT INSTRUCTIONS
