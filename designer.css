@@ -1,0 +1,39 @@
+.designer-container {
+    background-color: chocolate;
+    padding: 5px;
+    position:relative;
+    height:100%
+}
+.designer-header {
+    background-color: firebrick;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.designer-form {
+    width:75%;
+    /* float:left;*/
+    height:100%; 
+    background-color: chartreuse;
+}
+.designer-parameters {
+    background-color: cornflowerblue;
+}
+
+.designer-measurements {
+    background-color: cyan;
+}
+
+.designer-layout {
+    float:left;
+    background-color: cadetblue;
+}
+
+.designer-layout-instructions {
+    background-color: darkgreen;
+}
+.designer-preview {
+    height:100%;
+    background-color: darkmagenta;
+}
