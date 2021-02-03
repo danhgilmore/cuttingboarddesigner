@@ -36,6 +36,7 @@ wp_enqueue_script( 'designer_js', 'http://www.dancywood.dev.cc/wp-content/themes
                 <div class="designer-form-container">
 
                     <div class="designer-form-left">
+                        <h3>Parameters</h3>
                         <div class="designer-measurements">
                             <label for="length" >Length:</label>
                             <input type="number" step="0.25" min="16" max="22" value="16" id="inputLength" name="length" class="input-control" id="inputLength">
@@ -50,16 +51,22 @@ wp_enqueue_script( 'designer_js', 'http://www.dancywood.dev.cc/wp-content/themes
                         </div>
                         <div class="designer-layout-instructions">
                             <h3>Pattern Format</h3>
-
-Patterns consist of one or more blocks that have a wood type and a size. For example, "1W 1M" would represent 1in of walnut followed by 1in of maple.
-
-valid wood types are (C) Cherry (M) Maple (P) Padauk (PH) Purple Heart (W) Walnut 
+                                <p>Patterns consist of one or more blocks that have a wood type and a size. For example, "1W 1M" would represent
+                                    1in of walnut followed by 1in of maple.</p>
+                                <p>Valid wood types are:
+                                    <ul>
+                                        <li>(C) Cherry</li>
+                                        <li>(M) Maple</li>
+                                        <li>(P) Padauk</li>
+                                        <li>(PH) Purple Heart</li>
+                                        <li>(W) Walnut</li>
+                                    </p>
                         </div>
                     </div>
                     <div class="designer-form-right">
                         <div class="designer-preview">
                             <div class="designer-preview-title">
-                                Preview
+                                <h3>Preview</h3>
                             </div>
                             <div class="designer-preview-dimensions">
                                 <span id="resultLength"> in x </span>
