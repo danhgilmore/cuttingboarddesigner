@@ -27,22 +27,29 @@
 
 }
 
-.designer-measurements input {
-    width: 40px;
-    padding: 0;
-}
+
 .designer-measurements label {
-    padding-right: 0px 15px;
+    /* padding: 0px 15px 0 0px; */
+    padding-right: 5px;
     font-weight: bold;
     font-size: 1em;
 }
+.designer-measurements input {
+    width: 60px;
+    padding: 0 5px 0 0;  
+    margin-right: 15px;
+    /* t r b l  */
+
+}
+
+
 
 .designer-pattern {
     padding: 5px;
     
 }
 .designer-pattern input {
-    padding: 0;
+    
     width: 100%;
 }
 
