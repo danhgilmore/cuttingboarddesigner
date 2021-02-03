@@ -37,11 +37,11 @@ wp_enqueue_script( 'designer_js', 'http://www.dancywood.dev.cc/wp-content/themes
 
                     <div class="designer-form-left">
                         <div class="designer-measurements">
-                            <label for="length" >Length</label>
+                            <label for="length" >Length:</label>
                             <input type="number" step="0.25" min="16" max="22" value="16" id="inputLength" name="length" class="input-control" id="inputLength">
-                            <label for="width">Width</label>
+                            <label for="width">Width:</label>
                             <input type="number" step="0.25" min="8" max="12.5" value="12" id="inputWidth" name="width" class="input-control" >
-                            <label for="thickness">Thickness</label>
+                            <label for="thickness">Thickness:</label>
                             <input type="number" step="0.25" min="0.75" max="1.5" value="1" id="thickness" name="thickness" class="input-control" id="thickness">  
                         </div>
                         <div class="designer-pattern">
