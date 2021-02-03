@@ -1,43 +1,62 @@
-.designer-container {
-    background-color: chocolate;
-    padding: 5px;
-    position:relative;
-    height:100%
+
+.designer-header {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
 }
 
-    .designer-header {
-        background-color: firebrick;
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-        height: 100%;
-    }
+.designer-form-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    justify-content: space-between;
+    height: 500px;
+}
 
+.designer-form-left {
+    /* background-color: chartreuse; */
+    padding: 5px;
+}
+
+.designer-measurements {
     
-    .designer-form {
-        height:100%; 
-        background-color: silver;
-    }
-        .designer-parameters {
-            
-            background-color: cornflowerblue;
-            width: 45%;
-        }
+    /* background-color: bisque; */
+    padding: 5px;
 
-        .designer-measurements {
-            background-color: cyan;
-        }
+}
 
-        .designer-layout {
-            float:left;
-            background-color: cadetblue;
-        }
+.designer-measurements input {
+    width: 40px;
+    padding: 0;
+}
+.designer-measurements label {
+    padding-right: 0px 15px;
+    font-weight: bold;
+    font-size: 1em;
+}
 
-        .designer-layout-instructions {
-            background-color: darkgreen;
-        }
-    .designer-preview {
-        height:100%;
-        background-color: darkmagenta;
-        width: 45%;
-    }
+.designer-pattern {
+    padding: 5px;
+    
+}
+.designer-pattern input {
+    padding: 0;
+    width: 100%;
+}
+
+.designer-form-right {
+    
+    padding: 5px;;
+}
+.designer-pattern-instructions {
+    padding: 5px;
+    /* background-color: darkgreen; */
+}
+.designer-preview {
+    padding: 5px;
+    width: 300px;
+    height: 100%;
+    
+}
