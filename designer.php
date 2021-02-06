@@ -60,7 +60,8 @@ wp_enqueue_script( 'designer_js', 'http://www.dancywood.dev.cc/wp-content/themes
                                         <li>(P) Padauk</li>
                                         <li>(PH) Purple Heart</li>
                                         <li>(W) Walnut</li>
-                                    </p>
+                                    </ul>
+                                </p>
                         </div>
                     </div>
                     <div class="designer-form-right">

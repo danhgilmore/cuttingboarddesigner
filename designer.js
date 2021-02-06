@@ -1,5 +1,4 @@
 jQuery(document).ready(function() {
-    //
     resultLength.innerHTML = document.getElementById('inputLength').value + "in x ";
     resultWidth.innerHTML = document.getElementById('inputWidth').value + "in";
 });
