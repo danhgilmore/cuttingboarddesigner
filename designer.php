@@ -6,9 +6,17 @@
  */
 get_header();
 
+// TODO: Unfuck all these enqueues
 wp_enqueue_style( 'designer_css', 'http://www.dancywood.dev.cc/wp-content/themes/cuttingboarddesigner/designer.css'  );
 wp_enqueue_script( 'designer_js', 'http://www.dancywood.dev.cc/wp-content/themes/cuttingboarddesigner/designer.js');
+wp_enqueue_script( 'jquery-ui-dialog' );
+wp_enqueue_style( 'wp-jquery-ui-dialog' );
+wp_enqueue_style( 'designer_jquery_ui_css', 'http://www.dancywood.dev.cc/wp-content/themes/cuttingboarddesigner/css/jquery-ui.css' );
+wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' );
+
+
 ?>
+
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
         <article id="post-624" class="post-624 post type-post status-publish format-standard hentry category-status">
@@ -18,6 +26,13 @@ wp_enqueue_script( 'designer_js', 'http://www.dancywood.dev.cc/wp-content/themes
                 </h1>
             </header>
             <div class="entry-content">
+
+            <div class="form-group">
+
+</div>
+
+
+
                 <div class="designer-header">
                     <p>
                         Choose the size, types of wood, and layout that you would like. We will create a custom 
@@ -72,6 +87,9 @@ wp_enqueue_script( 'designer_js', 'http://www.dancywood.dev.cc/wp-content/themes
                             <div class="designer-preview-dimensions">
                                 <span id="resultLength"> in x </span>
                                 <span id="resultWidth"> in</span>
+                            </div>
+                            <div class="designer-preview-picture">
+                                This here is the pic
                             </div>
                         </div><!-- end of class="designer-preview" -->
                     </div>
