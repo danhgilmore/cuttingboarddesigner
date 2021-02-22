@@ -1,13 +1,12 @@
+
+// This code will populate the Preview Xin x Yin measurements when the page loads
 jQuery(document).ready(function() {
     resultLength.innerHTML = document.getElementById('inputLength').value + "in x ";
     resultWidth.innerHTML = document.getElementById('inputWidth').value + "in";
 });
 
-
 sourceLength = document.getElementById('inputLength');
 sourceWidth = document.getElementById('inputWidth');
-
-resultWidth = document.getElementById('resultWidth');
 
 WidthInputHandler = function(e) {
     resultWidth.innerHTML = e.target.value +" in";

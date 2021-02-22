@@ -1,69 +1,58 @@
-
 .designer-header {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    height: 100%;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 .designer-form-container {
-    display: flex;
-    flex-direction: row;
-    /* background-color: #f0f0f0; */
-    padding: 20px;
-    justify-content: space-between;
-    height: 500px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+  justify-content: space-between;
+  height: 500px;
 }
 
 .designer-form-left {
-    /* background-color: chartreuse; */
-    padding: 5px;
+  background-color: chartreuse;
+  padding: 5px;
 }
 
 .designer-measurements {
-    
-    /* background-color: bisque; */
-    padding: 5px;
-
+  /* background-color: bisque; */
+  padding: 5px;
 }
-
 
 .designer-measurements label {
-    /* padding: 0px 15px 0 0px; */
-    padding-right: 5px;
-    font-weight: bold;
-    font-size: 1em;
+  /* padding: 0px 15px 0 0px; */
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 1em;
 }
 .designer-measurements input {
-    width: 60px;
-    padding: 0 5px 0 0;  
-    margin-right: 15px;
-    /* t r b l  */
-
+  width: 60px;
+  padding: 0 5px 0 0;
+  margin-right: 15px;
+  /* t r b l  */
 }
-
-
 
 .designer-pattern {
-    padding: 5px;
-    
+  padding: 5px;
 }
 .designer-pattern input {
-    
-    width: 100%;
+  width: 100%;
 }
 
 .designer-form-right {
-    
-    padding: 5px;;
+  padding: 5px;
 }
 .designer-pattern-instructions {
-    padding: 5px;
-    /* background-color: darkgreen; */
+  padding: 5px;
+  /* background-color: darkgreen; */
 }
 .designer-preview {
-    padding: 5px;
-    width: 300px;
-    height: 100%;
-    
+  padding: 5px;
+  width: 300px;
+  height: 100%;
 }
